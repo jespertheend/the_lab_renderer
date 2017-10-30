@@ -17,6 +17,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine.VR;
+#if UNITY_2017_2
+	using UnityEngine.XR;
+#endif
 #if ( UNITY_EDITOR )
 	using UnityEditor;
 #endif
